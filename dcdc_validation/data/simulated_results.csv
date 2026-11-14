@@ -1,0 +1,18 @@
+test_id,hw_rev,level,measurement,vout_min_V,vout_max_V,class_required,class_achieved,result,data_source
+TC-01,A,9/12/14/16 V 3 A,Vout at each Vin,4.98,5.01,A,A,PASS,SIMULATED
+TC-02,A,18 V 60 min 65C,case max 88 C,5.00,5.01,A,A,PASS,SIMULATED
+TC-03,A,1 Vpp 50 Hz-25 kHz,Vout envelope,4.97,5.04,A,A,PASS,SIMULATED
+TC-04,A,0.5 V/min,UVLO fall 4.0 V rise 4.4 V,4.98,5.02,A,A,PASS,SIMULATED
+TC-05,A,100us/1ms/10ms dropout,recovery 3.1 ms after 10 ms,0.00,5.01,A/B,A/B,PASS,SIMULATED
+TC-06,A,12->4.5 V 15 ms,recovery 4 ms,4.18,5.01,B,B,PASS,SIMULATED
+TC-07,A,Us* 35 V 400 ms 2 ohm,node peak 32.2 V,4.99,5.01,A,A,PASS,SIMULATED (model)
+TC-08,A,-14 V 60 s,reverse current 0.8 uA,-0.02,0.00,C,A,PASS,SIMULATED
+TC-09,A,P1 -100 V 500 pulses,dip 1.8 ms,4.62,5.01,C,B,PASS,SIMULATED
+TC-10,A,P2a +50 V 500 pulses,,4.88,5.09,B,A,PASS,SIMULATED
+TC-11,A,P3a -150 V 1 h,,4.94,5.06,A,A,PASS,SIMULATED
+TC-12,A,P3b +150 V 1 h,,4.95,5.07,A,A,PASS,SIMULATED
+TC-13,A,P4 12->6 V 30 ms,,4.96,5.01,B,A,PASS,SIMULATED
+TC-14,A,P5b Us* 35 V 1 ohm,node 33.6 V,4.99,5.01,A,A,PASS,SIMULATED (model)
+TC-15,A,ESD contact +8 kV J2-1,dip 180 us,3.92,5.00,A,B,FAIL,SIMULATED
+TC-15,B,ESD contact +/-4/8 kV all pins,48 discharges,4.93,5.00,A,A,PASS,SIMULATED
+TC-16,A,ESD air +/-8/15 kV,dip 150 us no reset,4.71,5.00,B,B,PASS,SIMULATED

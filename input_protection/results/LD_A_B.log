@@ -1,0 +1,14 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\mujeeb ahmed\AppData\Local\Claude-Data\anthropicpbc.claude_fnn82j28hfe8t\scratch-workspaces\41711575-6be6-4c11-8528-ca0cdb4e6810\e7a7b1bf-9ae5-41f0-ab20-3610842e1b05\scratch-2026-11-13-6f05cd\input_protection\netlists\LD_A_B.cir
+Start Time: Fri Nov 13 16:11:51 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.218 seconds.
+
+Files loaded:
+C:\Users\mujeeb ahmed\AppData\Local\Claude-Data\anthropicpbc.claude_fnn82j28hfe8t\scratch-workspaces\41711575-6be6-4c11-8528-ca0cdb4e6810\e7a7b1bf-9ae5-41f0-ab20-3610842e1b05\scratch-2026-11-13-6f05cd\input_protection\netlists\LD_A_B.cir
+
